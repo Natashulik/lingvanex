@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --font-family: "Inter", sans-serif;
+  --second-family: "Open Sans", sans-serif;
+  --third-family: "Manrope", sans-serif;
+  --color-gray: rgba(42, 43, 47, 0.8);
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: -0.01em;
+  color: black;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  max-width: 1240px;
+  margin: 0 auto;
+  outline: 1px solid red;
+}
+
+/* Intro styles start */
+
+/* Intro styles end */
+
+.intro {
+  margin-top: 160px;
+}
+
+.intro__travel-block {
+  max-width: 1059px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 144px;
+}
+
+.intro__title {
+  font-size: 70px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+}
+
+.intro__subtitle {
+  font-family: var(--third-family);
+  color: rgba(42, 43, 47, 0.8);
+  max-width: 730px;
+  margin: 24px auto 40px;
+}
+
+.intro__button {
+  width: 366px;
+  height: 64px;
+  border-radius: 12px;
+  padding: 20px 24px;
+  background-color: #0146fe;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+
+.intro__lang-block {
+  max-width: 690px;
+  margin: 0 auto 70px;
+  text-align: center;
+}
+
+.intro__lang-title {
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: -0.05em;
+  margin-bottom: 24px;
+}
+
+.intro__lang-subtitle {
+  color: rgba(42, 43, 47, 0.9);
+  padding: 0;
+  letter-spacing: -0.01em;
+}
+
+.intro__cards {
+  display: flex;
+  gap: 20px;
+}
+
+.intro__card {
+  max-width: 400px;
+  padding: 24px 16px 16px;
+  text-align: center;
+  border: 2px solid rgba(0, 0, 0, 0.04);
+  border-radius: 32px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.08);
+}
+
+.intro__card-title {
+  font-size: 34px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+}
+
+.intro__card-text {
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.8);
+}
