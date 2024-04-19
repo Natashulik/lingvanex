@@ -382,7 +382,7 @@ img {
   .clients__card {
     margin: 0 auto;
     justify-content: space-around;
-    padding: 40px 20px;
+    padding: 40px 25px;
     
   }
 
@@ -448,6 +448,10 @@ img {
   .clients__card-pic {
     width: 100%;
   }
+
+   .clients__card-title  {
+    text-align: center;
+   }
 
   .clients__card-wrapper {
     min-height: 860px;
